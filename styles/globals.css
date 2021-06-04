@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  @apply bg-gray-900;
+body {
+    @apply bg-gray-900 antialiased;
+}
+
+/*.btn:hover {*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*}*/
+
+/*.btn {*/
+/*    transition: width 0.5s, height 0.5s;*/
+/*}*/
+
+/*.btn-p::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    border-radius: 50%;*/
+/*    background: #2196f3;*/
+/*    transition: width 0.5s, height 0.5s;*/
+/*}*/
+
+.btn-p:hover::before {
+    width: 300px;
+    height: 300px;
 }
