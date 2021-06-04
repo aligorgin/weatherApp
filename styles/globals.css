@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    @apply bg-gray-900 antialiased;
-}
+/*body {*/
+/*    @apply bg-gray-900 antialiased;*/
+/*}*/
 
 /*.btn:hover {*/
 /*    width: 300px;*/
@@ -27,7 +27,7 @@ body {
 /*    transition: width 0.5s, height 0.5s;*/
 /*}*/
 
-.btn-p:hover::before {
-    width: 300px;
-    height: 300px;
-}
+/*.btn-p:hover::before {*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*}*/
